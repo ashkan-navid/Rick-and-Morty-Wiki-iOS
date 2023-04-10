@@ -14,5 +14,18 @@ final class RMW_CharacterViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title = "Characters"
+        
+        let request = RMW_Request(
+            endpoint: .character,
+            queryParameters: [
+                URLQueryItem(name: "name", value: "rick"),
+                URLQueryItem(name: "status", value: "alive")
+            ])
+        
+        print(request.url)
+        
+        RMW_Service.shared.execute(request, expecting: RMW_Character.self) { result in
+            
+        }
     }
 }
