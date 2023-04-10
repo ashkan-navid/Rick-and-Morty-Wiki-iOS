@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+struct RMW_Character: Codable {
+    let id: Int
+    let name: String
+    let status: RMW_CharacterStatus
+    let species: String
+    let type: String
+    let gender: RMW_CharacterGender
+    let origin: RMW_Origin
+    let location: RMW_SingleLocation
+    let image: String
+    let episode: [String]
+    let url: String
+    let created: String
+}

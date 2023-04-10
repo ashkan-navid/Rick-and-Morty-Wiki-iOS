@@ -10,6 +10,10 @@
 		41D5DC6829E48515003BC2CE /* RMW_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC6729E48515003BC2CE /* RMW_Service.swift */; };
 		41D5DC6A29E48527003BC2CE /* RMW_Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC6929E48527003BC2CE /* RMW_Request.swift */; };
 		41D5DC6C29E4859F003BC2CE /* RMW_Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC6B29E4859F003BC2CE /* RMW_Endpoint.swift */; };
+		41D5DC6E29E489BF003BC2CE /* RMW_Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC6D29E489BF003BC2CE /* RMW_Origin.swift */; };
+		41D5DC7029E48A14003BC2CE /* RMW_SingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC6F29E48A14003BC2CE /* RMW_SingleLocation.swift */; };
+		41D5DC7229E48AE1003BC2CE /* RMW_CharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC7129E48AE1003BC2CE /* RMW_CharacterStatus.swift */; };
+		41D5DC7429E48B02003BC2CE /* RMW_CharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5DC7329E48B02003BC2CE /* RMW_CharacterGender.swift */; };
 		41ED173129E3866100BDFD9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED173029E3866100BDFD9E /* AppDelegate.swift */; };
 		41ED173329E3866100BDFD9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED173229E3866100BDFD9E /* SceneDelegate.swift */; };
 		41ED173529E3866100BDFD9E /* RMW_TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED173429E3866100BDFD9E /* RMW_TabViewController.swift */; };
@@ -28,6 +32,10 @@
 		41D5DC6729E48515003BC2CE /* RMW_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_Service.swift; sourceTree = "<group>"; };
 		41D5DC6929E48527003BC2CE /* RMW_Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_Request.swift; sourceTree = "<group>"; };
 		41D5DC6B29E4859F003BC2CE /* RMW_Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_Endpoint.swift; sourceTree = "<group>"; };
+		41D5DC6D29E489BF003BC2CE /* RMW_Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_Origin.swift; sourceTree = "<group>"; };
+		41D5DC6F29E48A14003BC2CE /* RMW_SingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_SingleLocation.swift; sourceTree = "<group>"; };
+		41D5DC7129E48AE1003BC2CE /* RMW_CharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_CharacterStatus.swift; sourceTree = "<group>"; };
+		41D5DC7329E48B02003BC2CE /* RMW_CharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMW_CharacterGender.swift; sourceTree = "<group>"; };
 		41ED172D29E3866100BDFD9E /* Rick and Morty Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41ED173029E3866100BDFD9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41ED173229E3866100BDFD9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 				41ED174F29E389A400BDFD9E /* RMW_Location.swift */,
 				41ED175129E389AF00BDFD9E /* RMW_Character.swift */,
 				41ED175329E389BD00BDFD9E /* RMW_Episode.swift */,
+				41D5DC6D29E489BF003BC2CE /* RMW_Origin.swift */,
+				41D5DC6F29E48A14003BC2CE /* RMW_SingleLocation.swift */,
+				41D5DC7129E48AE1003BC2CE /* RMW_CharacterStatus.swift */,
+				41D5DC7329E48B02003BC2CE /* RMW_CharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,12 +242,16 @@
 			files = (
 				41ED175929E38A5000BDFD9E /* RMW_LocationViewController.swift in Sources */,
 				41D5DC6829E48515003BC2CE /* RMW_Service.swift in Sources */,
+				41D5DC7429E48B02003BC2CE /* RMW_CharacterGender.swift in Sources */,
 				41ED175C29E38A6F00BDFD9E /* RMW_EpisodeViewController.swift in Sources */,
+				41D5DC7029E48A14003BC2CE /* RMW_SingleLocation.swift in Sources */,
 				41ED175E29E38A8300BDFD9E /* RMW_SettingsViewController.swift in Sources */,
+				41D5DC6E29E489BF003BC2CE /* RMW_Origin.swift in Sources */,
 				41ED175429E389BD00BDFD9E /* RMW_Episode.swift in Sources */,
 				41ED173529E3866100BDFD9E /* RMW_TabViewController.swift in Sources */,
 				41ED173129E3866100BDFD9E /* AppDelegate.swift in Sources */,
 				41ED173329E3866100BDFD9E /* SceneDelegate.swift in Sources */,
+				41D5DC7229E48AE1003BC2CE /* RMW_CharacterStatus.swift in Sources */,
 				41ED175029E389A400BDFD9E /* RMW_Location.swift in Sources */,
 				41D5DC6C29E4859F003BC2CE /* RMW_Endpoint.swift in Sources */,
 				41ED175729E38A4200BDFD9E /* RMW_CharacterViewController.swift in Sources */,
